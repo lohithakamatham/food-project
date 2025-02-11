@@ -1,0 +1,249 @@
+[
+    {
+        "food_id"        : "1",
+        "food_name"      : "Cuisine",
+        "food_img"       : "https://tse4.mm.bing.net/th?id=OIP.cT_lDuEzpNBwbLrat58mVAHaFS&pid=Api&P=0&h=180",
+        "food_calories"  : "1000",
+        "food_restorent" : "Reddy Fast Foods",
+        "food_rating"    : "4.9"
+    },
+    {
+        "food_id"        : "2",
+        "food_name"      : "BIbimbap",
+        "food_img"       : "https://goguides.azureedge.net/media/10rlhl5v/cc49915a-a856-4e94-9ba4-c7e89a652d2e.jpg?anchor=center&mode=crop&width=1600&height=1066&quality=50",
+        "food_calories"  : "800",
+        "food_restorent" : "Reddy Fast Foods",
+        "food_rating"    : "4.5"
+    },
+    {
+        "food_id"        : "3",
+        "food_name"      : "Tteokbokki",
+        "food_img"       : "https://a.cdn-hotels.com/gdcs/production65/d1648/71fa270d-179e-47b5-be14-684ff9b90659.jpg",
+        "food_calories"  : "900",
+        "food_restorent" : "Reddy Fast Foods",
+        "food_rating"    : "4.2"
+    },
+    {
+        "food_id"        : "4",
+        "food_name"      : "Parkin Cake",
+        "food_img"       : "https://www.themealdb.com/images/media/meals/qxuqtt1511724269.jpg",
+        "food_calories"  : "850",
+        "food_restorent" : "Amuratha Mess",
+        "food_rating"    : "4.7"
+    },
+    {
+        "food_id"        : "5",
+        "food_name"      : "Chicken Biryani",
+        "food_img"       : "https://media.istockphoto.com/id/1345624336/photo/chicken-biriyani.jpg?s=612x612&w=0&k=20&c=adU_N0P-1SKMQLZu5yu7aPknfLLgbViI8XILqLP92A4=",
+        "food_calories"  : "1000",
+        "food_restorent" : "Hyderabad Biryani",
+        "food_rating"    : "4.9"
+    },
+    {
+        "food_id"        : "6",
+        "food_name"      : "MUtton Biryani",
+        "food_img"       : "https://t3.ftcdn.net/jpg/09/31/29/30/360_F_931293061_S3yZAzwVL3OJKUAQZNlWbSoEV2DR4TEq.jpg",
+        "food_calories"  : "1000",
+        "food_restorent" : "Hyderabad Biryani",
+        "food_rating"    : "4.9"
+    },
+    {
+        "food_id"        : "7",
+        "food_name"      : "Chicken Tikaaa",
+        "food_img"       : "https://www.shutterstock.com/image-photo/deliciously-spiced-chicken-tikka-kabab-600nw-2495838045.jpg",
+        "food_calories"  : "990",
+        "food_restorent" : "kareem Fast Foods and Fried Pices",
+        "food_rating"    : "4.9"
+    },
+    {
+        "food_id"        : "8",
+        "food_name"      : "Chicken Kebab",
+        "food_img"       : "https://st2.depositphotos.com/1778021/7459/i/950/depositphotos_74597941-stock-photo-chicken-tikka.jpg",
+        "food_calories"  : "1000",
+        "food_restorent" : "Reddy Fast Foods Restaurant",
+        "food_rating"    : "4.9"
+    },
+    {
+        "food_id"        : "9",
+        "food_name"      : "Tteokbokki Noodles",
+        "food_img"       : "https://tse3.mm.bing.net/th?id=OIP.gP0uyvBhKZUjuM0HUBpMWQHaFj&pid=Api&P=0&h=180",
+        "food_calories"  : "850",
+        "food_restorent" : "Drew Perales Restaurant",
+        "food_rating"    : "4.2"
+    },
+    {
+        "food_id"        : "10",
+        "food_name"      : "Alimentation",
+        "food_img"       : "https://plus.unsplash.com/premium_photo-1669261882830-1e504a9abf1d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGRlbGljaW91cyUyMGZvb2R8ZW58MHx8MHx8fDA%3D",
+        "food_calories"  : "700",
+        "food_restorent" : "Pablo Merchán Montes Restaurant",
+        "food_rating"    : "4.3"
+    },
+    {
+        "food_id"        : "11",
+        "food_name"      : "Dumplings Asian",
+        "food_img"       : "https://images.unsplash.com/photo-1662966732481-7dff95adde69?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGRlbGljaW91cyUyMGZvb2R8ZW58MHx8MHx8fDA%3D",
+        "food_calories"  : "780",
+        "food_restorent" : "Tina Xinia Restaurant",
+        "food_rating"    : "4.0"
+    },
+    {
+        "food_id"        : "12",
+        "food_name"      : "Orange Salad",
+        "food_img"       : "https://images.unsplash.com/photo-1675902836485-28013862afec?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGRlbGljaW91cyUyMGZvb2R8ZW58MHx8MHx8fDA%3D",
+        "food_calories"  : "790",
+        "food_restorent" : "Grapefruit Orange Restaurant",
+        "food_rating"    : "4.3"
+    },
+    {
+        "food_id"        : "13",
+        "food_name"      : "Onion rings",
+        "food_img"       : "https://images.unsplash.com/photo-1645066803695-f0dbe2c33e42?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGRlbGljaW91cyUyMGZvb2R8ZW58MHx8MHx8fDA%3D",
+        "food_calories"  : "820",
+        "food_restorent" : "satria setiawan Restaurant",
+        "food_rating"    : "4.1"
+    },
+    {
+        "food_id"        : "14",
+        "food_name"      : "panna cotta",
+        "food_img"       : "https://plus.unsplash.com/premium_photo-1713370407756-acedc62f5fbb?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGRlbGljaW91cyUyMGZvb2R8ZW58MHx8MHx8fDA%3D",
+        "food_calories"  : "830",
+        "food_restorent" : "Olimpia Davies",
+        "food_rating"    : "4.9"
+    },
+    {
+        "food_id"        : "15",
+        "food_name"      : "Chicken Pastaa",
+        "food_img"       : "https://images.unsplash.com/photo-1625467163651-fc5b647bcc8b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGRlbGljaW91cyUyMGZvb2R8ZW58MHx8MHx8fDA%3D",
+        "food_calories"  : "890",
+        "food_restorent" : "Stu Moffat Restaurant",
+        "food_rating"    : "4.7"
+    },
+    {
+        "food_id"        : "16",
+        "food_name"      : "Gimbap",
+        "food_img"       : "https://tse1.mm.bing.net/th?id=OIP.6r1ftF8csZNR44Xt9ILlsQHaE7&pid=Api&P=0&h=180",
+        "food_calories"  : "930",
+        "food_restorent" : "Theo Crazzolara Restaurant",
+        "food_rating"    : "4.6"
+    },
+    {
+        "food_id"        : "17",
+        "food_name"      : "Rice Cakes",
+        "food_img"       : "https://tse1.mm.bing.net/th?id=OIP.iSxRyE9u-id8tkQRqZoqEQHaE7&pid=Api&P=0&h=180",
+        "food_calories"  : "790",
+        "food_restorent" : "Natalia Gusakova Restaurant",
+        "food_rating"    : "4.0"
+    },
+    {
+        "food_id"        : "18",
+        "food_name"      : "Jakarta Chinese",
+        "food_img"       : "https://images.unsplash.com/photo-1656318319598-63f8237c5759?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fGRlbGljaW91cyUyMGZvb2R8ZW58MHx8MHx8fDA%3D",
+        "food_calories"  : "920",
+        "food_restorent" : "Aviv Rachmadian Chinese Restaurant",
+        "food_rating"    : "4.5"
+    },
+    {
+        "food_id"        : "19",
+        "food_name"      : "Momos",
+        "food_img"       : "https://tse4.mm.bing.net/th?id=OIP.BM4M7CQhZzlKoWMcGQ9MJAHaE6&pid=Api&P=0&h=180",
+        "food_calories"  : "796",
+        "food_restorent" : "Mirandilla Sweet Donuts Restaurant",
+        "food_rating"    : "4.4"
+    },
+    {
+        "food_id"        : "20",
+        "food_name"      : "Plate Pasta",
+        "food_img"       : "https://images.unsplash.com/photo-1669109230787-71bdd4699af4?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGRlbGljaW91cyUyMGZvb2R8ZW58MHx8MHx8fDA%3D",
+        "food_calories"  : "910",
+        "food_restorent" : "Yosuke Ota Pasta Restaurant",
+        "food_rating"    : "4.3"
+    },
+    {
+        "food_id"        : "21",
+        "food_name"      : "Montes Meal",
+        "food_img"       : "https://plus.unsplash.com/premium_photo-1669261882002-f8d7ea049dab?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGRlbGljaW91cyUyMGZvb2R8ZW58MHx8MHx8fDA%3D",
+        "food_calories"  : "980",
+        "food_restorent" : "Pablo Merchán Meals Restaurant",
+        "food_rating"    : "4.5"
+    },
+    {
+        "food_id"        : "22",
+        "food_name"      : "Gobi Rice",
+        "food_img"       : "https://images.unsplash.com/photo-1669109230963-b4d55e6a663e?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGRlbGljaW91cyUyMGZvb2R8ZW58MHx8MHx8fDA%3D",
+        "food_calories"  : "1000",
+        "food_restorent" : "Lemon Scallops Restaurant",
+        "food_rating"    : "4.4"
+    },
+    {
+        "food_id"        : "23",
+        "food_name"      : "Oyster Groument",
+        "food_img"       : "https://images.unsplash.com/photo-1669109230966-9e548b8e8e82?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGRlbGljaW91cyUyMGZvb2R8ZW58MHx8MHx8fDA%3D",
+        "food_calories"  : "990",
+        "food_restorent" : "Ota Yousuke Restaurant",
+        "food_rating"    : "4.1"
+    },
+    {
+        "food_id"        : "24",
+        "food_name"      : "Bacon Sandwich",
+        "food_img"       : "https://images.unsplash.com/photo-1673646959730-abc69dbb30c1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGRlbGljaW91cyUyMGZvb2R8ZW58MHx8MHx8fDA%3D",
+        "food_calories"  : "930",
+        "food_restorent" : "Cooking at Home Restaurant",
+        "food_rating"    : "4.9"
+    },
+    {
+        "food_id"        : "25",
+        "food_name"      : "Silk Tofu Cheese",
+        "food_img"       : "https://media.gettyimages.com/id/1216403044/photo/silk-tofu-cheese.jpg?s=612x612&w=0&k=20&c=t4Dtz11t-WmAa_v2kNVhXlgrc3BbT5Twf6lY35qUCao=",
+        "food_calories"  : "980",
+        "food_restorent" : "Olimpia Davies Restaurant",
+        "food_rating"    : "4.3"
+    },
+    {
+        "food_id"        : "26",
+        "food_name"      : "Mochi Mockup",
+        "food_img"       : "https://tse2.mm.bing.net/th?id=OIP.1DLWuAuVov0qkoThn5xxzQHaFS&pid=Api&P=0&h=180",
+        "food_calories"  : "1000",
+        "food_restorent" : "Mockup box Mochi Restaurant",
+        "food_rating"    : "4.2"
+    },
+    {
+        "food_id"        : "27",
+        "food_name"      : "Cuisine Flavor",
+        "food_img"       : "https://images.unsplash.com/photo-1719388392035-dae4f5dc62a4?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGRlbGljaW91cyUyMGZvb2R8ZW58MHx8MHx8fDA%3D",
+        "food_calories"  : "930",
+        "food_restorent" : "Vi Tran Restaurant",
+        "food_rating"    : "4.9"
+    },{
+        "food_id"        : "28",
+        "food_name"      : "Pasta Italian",
+        "food_img"       : "https://images.unsplash.com/photo-1693609930472-cf329a4d691b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fGRlbGljaW91cyUyMGZvb2R8ZW58MHx8MHx8fDA%3D",
+        "food_calories"  : "850",
+        "food_restorent" : "Mina Rad Restaurant",
+        "food_rating"    : "4.5"
+    },
+    {
+        "food_id"        : "29",
+        "food_name"      : "Pistachio",
+        "food_img"       : "https://plus.unsplash.com/premium_photo-1676202363407-c948c6961563?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTV8fGRlbGljaW91cyUyMGZvb2R8ZW58MHx8MHx8fDA%3D",
+        "food_calories"  : "1000",
+        "food_restorent" : "Grabkowska Breakfast Restaurant",
+        "food_rating"    : "4.1"
+    },
+    {
+        "food_id"        : "30",
+        "food_name"      : "Uzbekistan Tashkent",
+        "food_img"       : "https://images.unsplash.com/photo-1671048116810-6f885b2b35a5?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fGRlbGljaW91cyUyMGZvb2R8ZW58MHx8MHx8fDA%3D",
+        "food_calories"  : "978",
+        "food_restorent" : "Otabek Xatipov Restaurant",
+        "food_rating"    : "4.8"
+    },
+    {
+        "food_id"        : "31",
+        "food_name"      : "Kimchi",
+        "food_img"       : "https://tse3.mm.bing.net/th?id=OIP.Lk47JrBPrpipC7FcKXq1LAHaFc&pid=Api&P=0&h=180",
+        "food_calories"  : "978",
+        "food_restorent" : "Andrea De Santis Restaurant",
+        "food_rating"    : "4.5"
+    }
+]

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Item</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+            height: 100vh;
+        }
+
+        .mainhome {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        #mainbox {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            border: 1px solid black;
+            border-radius: 10px;
+            width: 100%;
+            max-width: 500px;
+            margin: 10px auto;
+            background-color: #f9f9f9;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #logo {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 20px;
+        }
+
+        #subbox {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            width: 100%;
+            padding: 20px;
+        }
+
+        #box, #box1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+        }
+
+        #list, #list1 {
+            font-weight: bold;
+            font-family: sans-serif;
+            width: 150px;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        #list {
+            background-color: beige;
+            color: black;
+        }
+
+        #list1 {
+            background-color: lightgray;
+            color: #fff;
+        }
+        @media (max-width: 768px) {
+            #mainbox {
+                max-width: 350px;
+            }
+            #subbox {
+                grid-template-columns: 1fr;
+                gap: 20px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body onload="loadSpecificReceipe()">
+
+    <div class="mainhome" id="target"></div>
+
+    <script>
+        async function loadSpecificReceipe() {
+    let params = new URLSearchParams(window.location.search);
+    let id = params.get('id');
+    console.log("Selected Food ID:", id);
+
+    try {
+        let response = await fetch('/Food.json');
+        let data = await response.json();
+        let food = data.find(item => Number(item.food_id) === Number(id));
+
+        let mainbox = document.getElementById("target");
+        mainbox.innerHTML = ""; 
+
+        if (food) {
+            let subbox = document.createElement("div");
+            subbox.innerHTML = `
+                <div id="mainbox">
+                    <img src="${food.food_img}" alt="${food.food_name}" id="logo">
+                    <div id="subbox">
+                        <div id="box">
+                            <p id="list">Food ID</p>
+                            <p id="list">Name</p>
+                            <p id="list">Calories</p>
+                            <p id="list">Restaurant</p>
+                            <p id="list">Rating</p>
+                        </div>
+                        <div id="box1">
+                            <p id="list1">${food.food_id}</p>
+                            <p id="list1">${food.food_name}</p>
+                            <p id="list1">${food.food_calories}</p>
+                            <p id="list1">${food.food_restorent}</p>
+                            <p id="list1">${food.food_rating}</p>
+                        </div>
+                    </div>
+                </div>`;
+            mainbox.appendChild(subbox);
+        } else {
+            console.log("Food not found");
+            mainbox.innerHTML = "<p style='color: red; font-weight: bold;'>Food item not found.</p>";
+        }
+    } catch (error) {
+        console.error("Error fetching food details:", error);
+    }
+}
+loadSpecificReceipe();
+
+    </script>
+</body>
+</html>
